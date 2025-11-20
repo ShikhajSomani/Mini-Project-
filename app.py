@@ -9,7 +9,7 @@ import os
 # ------------------------------
 # Load Trained Model
 # ------------------------------
-MODEL_PATH = "best_garbage_model.keras"      # or .h5
+MODEL_PATH = "garbage_classification_model.h5"      # or .h5
 model = load_model(MODEL_PATH)
 
 # Class names (same order as train_data.class_indices)
